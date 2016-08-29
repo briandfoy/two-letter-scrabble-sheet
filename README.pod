@@ -1,0 +1,8 @@
+=head1 Make a Scrabble grid
+
+I wanted to make a grid the represents the valid two-letter
+Scrabble words. Because, Scrabble people are kinda into that
+sorta thing.
+
+
+=cut
