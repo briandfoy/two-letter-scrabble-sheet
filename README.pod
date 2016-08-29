@@ -1,8 +1,51 @@
+=encoding utf8
+
 =head1 Make a Scrabble grid
 
 I wanted to make a grid the represents the valid two-letter
 Scrabble words. Because, Scrabble people are kinda into that
 sorta thing.
 
+=head2 The words
+
+I'm not very particular about the word list, although some people
+are. I've included a starting list in F<words.txt>, but you can
+make your own. If I've made a mistake or my list if outdated,
+send a pull request.
+
+I'd also like historical lists, or to know when each word was added
+to the official Scrabble dictionary.
+
+=head2 The grid
+
+	 │a b c d e f g h i j k l m n o p q r s t u v w x y z
+	 ├────────────────────────────────────────────────────┤
+	a│* *   * *   * * *     * * *       * * *     * * *   │
+	b│*       *       *           *                   *   │
+	c│                                                    │
+	d│        *                   *                       │
+	e│      *   *   *       * * *       * * *       *     │
+	f│*       *                                           │
+	g│                            *                       │
+	h│*       *       *       *   *                       │
+	i│      *   *               *         * *             │
+	j│                            *                       │
+	k│*               *                                   │
+	l│*               *           *                       │
+	m│*       *       *       *   *           *       *   │
+	n│*       *                   *           *           │
+	o│      * * *   * *       * *   *   * *       * * *   │
+	p│*       *       *                                   │
+	q│                *                                   │
+	r│        *                                           │
+	s│              * *           *                       │
+	t│*               *           *                       │
+	u│              *         * *   *     * *             │
+	v│                                                    │
+	w│        *                   *                       │
+	x│                *                       *           │
+	y│*       *                   *                       │
+	z│*                                                   │
+	 ├────────────────────────────────────────────────────┤
 
 =cut
