@@ -5,4 +5,4 @@ WORDS=words.txt
 all: ascii
 
 ascii:
-	@ ./scrabble.pl < ${WORDS}
+	@ ./scrabble-ascii.pl < ${WORDS}
